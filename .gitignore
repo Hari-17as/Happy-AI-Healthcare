@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Medical PDFs and extracted files
+Medical_Knowledge/**/*.pdf
+Medical_Knowledge/**/extracted_text/
+
+# RAG database / large generated files
+Medical_Knowledge/_rag_database/
+
+# Local/private files
+.env
+*.log
+
+# Windows
+Thumbs.db
+# Unrelated files accidentally inside medical folder
+Medical_Knowledge/09_Microbiology/*.exe
+Medical_Knowledge/09_Microbiology/*.mkv
